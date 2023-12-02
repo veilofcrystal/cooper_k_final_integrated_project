@@ -281,48 +281,31 @@ button:first-child{
 
  }
  
- .why-choose-us-image-con h2 {
+ #excellence-image {
+   float: left;
+   margin-right: 20px;
+   margin-top: 30px;
+}
+
+ #excellence h2 {
     font-size: 14px;
     margin-bottom: 20px;
     margin-top: 30px;
  }
  
- .why-choose-us-image-con p {
+ #excellence p {
     font-size: 12px;
     margin-bottom: 20px;
     line-height: 20px;
  }
  
- .why-choose-us-image-con a {
+ #excellence a {
     color: #707070;
     font-size: 12px;
  }
- 
-  #why-choose-us-bottom-nav {
-    background-color: #CF6666;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
- }
- 
- #why-choose-us-bottom-nav ol {
-    list-style-type: none;
-    margin: 0 0 0 20px;
-    padding: 0;
- }
- 
- #why-choose-us-bottom-nav ol li {
-    display: inline;
- }
- 
- #why-choose-us-bottom-nav ol li a {
-    padding: 5px;
-    color: #fff;
- }
- 
- 
- 
 
+ 
+ 
  #policies-con {
     background: url(../images/wine_dine.jpg);
     height: 195px;
