@@ -1,71 +1,127 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+
     <link href="css/grid.css" rel="stylesheet" type="text/css">
+
     <link href="css/dining.css" rel="stylesheet" type="text/css">
+
     <title>Welcome to The Couples Resort</title>
+
 </head>
+
     <body>
+
         <h1 class="hidden">Welcome to The Couples Resort</h1>
+
         <!-- Main Nav -->         
+
             <header class="grid-con" id="main-header">
+
                 <nav id="main-nav" class="col-span-full">
+
                     <h2 class="hidden">Main Navigation</h2>
+
                     <input type="checkbox" id="hamburger">
-                    <label for="hamburger">
-                    <img src="images/burger.svg" alt="hamburger menu icon">
-                    </label>
+
+                        <label for="hamburger">
+
+                            <img src="images/burger.svg" alt="hamburger menu icon">
+
+                        </label>
+
                     <div id="burger-con">
+
                         <ul>
+
                             <li><a href="index.html">Home</a></li>
+
                             <li><a href="#">Rooms</a></li>
+
                             <li><a href="#">Packages</a></li>
+
                             <li><a href="dining.html">Dining</a></li>
+
                             <li><a href="spa.html">Spa Activites</a></li>
+
                             <li><a href="#">Reservations</a></li>
+
                         </ul>
+
                     </div>
+
                 </nav>
-                <div id="logo" class="col-span-full">
-                    <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
-                </div>
-            </header>        
+
+                    <div id="logo" class="col-span-full">
+
+                        <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
+
+                    </div>
+
+            </header>       
+
         <!-- Main Hero -->
         <section id="hero" class="grid-con">
-            <h2 class="hidden">Book a stay with us</h2>                       
+
+            <h2 class="hidden">Book a stay with us</h2>   
+
             <div id="book-now-hero" class="book-now col-start-3 col-span-2">
+
                 <p>Book Now</p>
+
             </div>
+
             <section id="hero-heading-box" class="col-span-full">
+
                 <h2 class="hero-img-h2">
+
                     <span>Couples Resort</span><br> Gourmet Dining
+
                 </h2>
+
             </section>
+
         </section>
+
            
         <div class="grid-con">
+
             <section id="hero-summary" class="col-span-full line-separator">
+
                 <h2 class="hidden">Dining Experience</h2>
                
                     <p>All room prices include daily 5-star, classic 5-course gourmet dinner in our European style dining room. 
                         Or as room service brought to you, and classic style breakfast in bed</p> 
             </section>
-        </div>
-        <div class="grid-con">
-            <section class="col-span-full grey-text-area">
-                <p>DINING ROOM OPEN - 6:00 pm to 8:00 pm (to 9:00 pm Fridays).  Reserve Table and Place Order Between 12pm - 5pm.  866-202-1179 ext 108
 
-                   <p> Gastronomic 5 Course Meal:  1 amuse bouche, 2 Starters (either Appy, Soup or Salad), 
+        </div>
+
+        <div class="grid-con">
+
+            <section class="col-span-full grey-text-area">
+
+                    <p>DINING ROOM OPEN - 6:00 pm to 8:00 pm (to 9:00 pm Fridays). 
+                         Reserve Table and Place Order Between 12pm - 5pm.  866-202-1179 ext 108</p>
+
+                    <p> Gastronomic 5 Course Meal:  1 amuse bouche, 2 Starters (either Appy, Soup or Salad), 
                     1 main Entree Choice and 1 Dessert Choice.</p>
                     
                     <p>Lunch Extra charge. Daily from 12:00 - 4:00 pm. 866-202-1179 ext 108</p>
                      
-                   <p> PATIO SERVICES - LUNCH ONLY- Please wait to be seated as the tables need to be sanitized.</p>
+                    <p> PATIO SERVICES - LUNCH ONLY- Please wait to be seated as the tables need to be sanitized.</p>
+
             </section>
 
         </div>
@@ -74,53 +130,309 @@
      
          <!-- Why Choose Us -->
       
-            <section id="dining-menu-hero-con" class="grid-con">             
+            <section id="dining-menu-hero-con" class="grid-con">  
+
                 <div id="dining-menu-heading-box" class="col-span-full">
+
                     <h2 class="hero-img-h3"><span>Couples Resort</span><br> Menu</h2>
+
                 </div> 
+
             </section>
            
             <section class="grid-con">
+
                 <div class="col-span-full line-separator"></div>
+
                 <div class="col-span-full why-choose-us-image-con">
 
 
-                  
-                    <section id="spa-menu" class="grid-con">
-                        <h2 class="hidden">Menu</h2>  
-                        <nav class="dropdown">
-                            <button class="dropbtn">Daily Features&#9660;</button>
+                  <nav>
+                    <ul class="menu">
+
+                        <li id="d-f-button">
+                            <a href="#daily-features">
+
+                                <h3>Daily Features</h3>
+
+                            </a>
+
+                        </li>
+
+                        <li id="starters-button">
+                            <a href="#starters" >
+
+                                <h3>Starters</h3>
+
+                            </a>
+
+                        </li>
+
+                        <li id="entrees-button">
+
+                            <a href="#entrees">
+
+                                <h3>Entress</h3>
+
+                            </a>
+
+                        </li>
+
+                        <li id="desserts-button">
+
+                            <a href="#desserts">
+
+                                <h3>Desserts</h3>
+
+                            </a>
+
+                        </li>
+
+                        <li id="breakfast-button">
+
+                            <a href="#breakfast" >
+
+                                <h3>Breakfast - 8:00am-10:30am</h3>
+
+                            </a>
+
+                        </li>
+
+                        <li id="lunch-button">
+
+                            <a href="#lunch" >
+
+                                <h3>Lunch - 12:00pm-4:00pm</h3>
+
+                            </a>
+
+                        </li>
+
+                        <li id="drinks-button">
+
+                            <a href="#drinks" >
+
+                                <h3>Drinks - From 11am</h3>
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </nav> 
                             
-                            <div class="dropdown-content">
-                                
-                             <ul class="dining-list">
-                                <lable>WEDNESDAY, NOVEMBER 29TH</lable>
-                                <li>Amuse Bouche</li>
-                                <li>Tuna Confit with Passion Fruit Butter</li>
-                                <li>Starter
-                                    Potato Scones with a Herbed Cajun Sour Cream with Cheddar</li>
-                                <li>Soup<br> Tarragon Cream of Mushroom</li>
-                                <li>Main<br>
-                                    Pan Seared Veal Scallopini Mini Roasted Potatoes, Garden Vegetables, Frangelico Sage Demi Sauce</li>
-            
-                                <li>Fish<br>
-                                    Baked Pickerel, Herbed Quinoa, Seasonal Vegetables, Lemon Garlic Aioli</li>
-                                <li>Pasta<br>
-                                    Tagliatelle with Spanish Chorizo, Bell Peppers, Zucchini in a Creamy Goat Cheese Sauce</li>
-                                <li>Dessert<br>
-                                    Mixed Chocolate Blackberry Tower</li>
-            
-                            </ul>
+                            <div class="lightbox grid-con" id="daily-features">
+
+                                <a href="" id="lightbox_close">x</a>
+
+                                    <ul class="dining-list">
+
+                                        <lable>WEDNESDAY, NOVEMBER 29TH</lable>
+                                        <br><br>
+                                        <li>Amuse Bouche</li>
+                                        <br>
+                                        <li>Tuna Confit with Passion Fruit Butter</li>
+                                        <br>
+                                        <li>Starter Potato Scones with a Herbed Cajun Sour Cream with Cheddar</li>
+                                        <br>
+                                        <li>Soup<br> Tarragon Cream of Mushroom</li>
+                                        <br>
+                                        <li>Main<br>Pan Seared Veal Scallopini Mini Roasted Potatoes, 
+                                            Garden Vegetables, Frangelico Sage Demi Sauce</li>
+                                            <br>
+                                        <li>Fish<br>Baked Pickerel, Herbed Quinoa,
+                                            Seasonal Vegetables, Lemon Garlic Aioli</li>
+                                            <br>
+                                        <li>Pasta<br>Tagliatelle with Spanish Chorizo, Bell Peppers, 
+                                            Zucchini in a Creamy Goat Cheese Sauce</li>
+                                            <br>
+                                        <li>Dessert<br>Mixed Chocolate Blackberry Tower</li>
+                                        <br>
+                                    </ul>
                                        
-                        </div>
+                             </div>
+
+                             <div class="lightbox grid-con" id="starters">
+
+                                <a href="" id="lightbox_close">x</a>
+
+                                    <ul class="dining-list">
+
+                                        <lable>STARTERS</lable>
+                                        <br><br>
+                                        <li>Watermelon salad<br>
+                                            Fresh water melon, Baby Arugula, cucumber, Goat cheese cherry tomatoes,
+                                             creamy cassis dressing
+                                            </li>
+                                            <br>
+                                        <li>Warm beet Salad<br>
+                                            Honey beet purée, horseradish creme fresh</li>
+                                            <br>
+                                        <li> Peach Salad<br>
+                                            Caramelized peaches, baby arugula, Bermuda onion, balsamic maple vinaigrette
+                                            </li>
+                                            <br>
+                                        <li>Kale Caesar<br>
+                                            Fresh kale, crispy panchetta, parm crisp</li>
+                                            <br>
+                                    </ul>
+                                       
+                             </div>
+
+                             <div class="lightbox grid-con" id="entrees">
+
+                                <a href="" id="lightbox_close">x</a>
+
+                                    <ul class="dining-list">
+
+                                        <lable>ENTREES</lable>
+                                             <br><br>
+                                        <li> Petit Mignon - GF<br>
+                                            4oz Filet mignon, pommery mash potato, seasonal vegetables,
+                                             port wine tarragon demi
+                                            </li>
+                                            <br>
+                                        <li>Chicken Supreme - GF<br>
+                                            Chicken supreme, grilled portobella, brie, blueberry compote, 
+                                            seasonal vegetables, roasted garlic mashed potato
+                                            </li>
+                                            <br>
+                                        <li> Grilled Angus striploin - GF<br>
+                                            Grilled 10 oz striploin, garlic mash, seasonal vegetables, 
+                                            tomato onion jam, bacon au jus
+                                             </li>
+                                             <br>
+                                        <li>Rack of Lamb<br>
+                                            Greek style roasted potatoes, seasonal vegetables, eggplant compote, 
+                                            onion mint jus
+                                            </li>
+                                            <br>
+                                           <li> Chorizo carbonara<br>
+                                        In-house linguine, double smoked bacon, garlic, white wine, crispy sage, 
+                                        parmigiana reggiano
+                                            </li>
+                                            <br>
+                                            <li>Rigatoni<br>
+                                        In-house Rigatoni, sauteed beef, bermuda onion, peppers, spinach in chipotle
+                                         cream sauce
+                                            </li>
+                                            <br>
+                                            <li>Risotto Jambalaya<br>
+                                        Arborio Rice tossed with tiger prawns, grilled chicken, chorizo sausages,
+                                         red onions, bell peppers and garlic in Cajun herbs tomato sauce
+                                            </li>
+                                            <br>
+                                            <li>Pasta - V<br>
+                                        Beet root pasta, with lemon ricotta, baby arugula, marinated cherry tomatoes 
+                                        and basil pesto
+                                             </li>
+                                             <br>
+                                        <li>Butternut Squash - V<br>
+                                        Roasted butternut squash, whipped feta, candied pecans, creamed Baileys 
+                                        gastrique, saffron infused quinoa
+                                        </li>
+                                        <br>
+                                        <li>Risotto - V<br>
+                                        Vegetarian risotto, sautéed mushrooms, onion, red pepper, marinara sauce with
+                                         grilled tofu
+                                        </li>
+                                        <br>
+                                    </ul>
+                                       
+                             </div>
+
+                             <div class="lightbox grid-con" id="desserts">
+
+                                <a href="" id="lightbox_close">x</a>
+
+                                    <ul class="dining-list">
+
+                                        <lable>DESSERTS</lable>
+                                        <br><br>
+                                        <li> Chocolate Tower<br>
+                                            Soft raspberry ganache tower
+                                            </li>
+                                            <br>
+                                        <li>Key Lime Pie<br>
+                                            Tangy sweet pie
+                                            </li>
+
+                                        <li>Crème Brulee<br>
+                                            Daily creation
+                                             </li>
+
+                                        <li>White chocolate cheesecake<br>
+                                            White chocolate, blueberry bourbon swirl
+                                            </li>
+                                            <br>
+                                        <li>Dessert of the day<br>
+                                            Daily Chef Creation
+                                        </li>  
+                                        <br>
+            
+                                    </ul>
+                                       
+                             </div>
+
+                             <div class="lightbox grid-con" id="breakfast">
+
+                                <a href="" id="lightbox_close">x</a>
+
+                                    <ul class="dining-list">
+
+                                        <lable> BREAKFAST (ROOM-SERVICE) <br>HOURS: 8:30 am to 10:30 am. 
+                                            <br>Best to place with your dinner order. 866-202-1179 ext 102
+                                        </lable>
+                                            <br><br>
+                                        <li>Beverages<br>
+                                            Tea, Coffee, Hot Chocolate or Milk</li>
+                                            <br>
+                                        <li>Juices<br>
+                                            Apple, Orange, Ruby Red Grapefruit or Cranberry</li>
+                                            <br>
+                                        <li>Fresh Break<br>
+                                            Seasonal fresh fruit, yogurt and muesli cereal</li>
+                                            <br>
+                                        <li>Scramble Tofu<br>
+                                            Pan fried Tofu with turmeric and Garden vegetables</li>
+                                            <br>
+                                        <li>Eggs Benedict<br>
+                                            Poached eggs, Canadian Bacon & Creamy Hollandaise a top English Muffin, with dill cake and tomato salad
+                                            </li>
+                                            <br>
+                                        <li>Croque Monsieur<br>
+                                            Shaved Ham and melted Swiss cheese in pan fried Texas bread</li>
+                                            <br>
+                                        <li>Avocado Toast<br>
+                                            Sliced tomatoes, hummus, parmesan crisp, red onion on rye bread and arugula salad
+                                            </li>
+                                            <br>
+                                        <li>Belgium Waffle (available gluten free)<br>
+                                            Topped with Cherry Apple Compote and real Maple syrup Cream</li>
+                                            <br>
+                                        <li>Couples Sunrise<br>
+                                            2 eggs,served with bacon or ham, Home Fries and Toast</li>
+                                            <br>
+                                        <li>Omelette Choose - Any 3 Ingredients:<br>
+                                            Choose your style, and then choose any 3 Ingredients<br><br>
+                                            Smoked Salmon, Asparagus, Bermuda Onions, Sweet Peppers, Mushrooms, Brie, 
+                                            Mozzarella, Tomato, Bacon or Ham</li>
+                                    </ul>
+                                       
+                             </div>
+
 
                       
-                        <div id="vegans" class="col-span-full grid-con">
-                            <p>Vegan and Vegetarian dishes are available, we offer a large array of choices from Heart Smart, Gluten Free at your request.
-                                Vegans & Vegetarians ask to talk to the Chef, when you Check into the Resort, for Delicious Options
-                                </p>
-                            </div>
-                    </section>
+                <div id="vegans" class="col-span-full grid-con=">
+
+                    <p>Vegan and Vegetarian dishes are available, we offer a large array of choices from Heart Smart, 
+                    Gluten Free at your request. Vegans & Vegetarians ask to talk to the Chef,
+                     when you Check into the Resort, for Delicious Options</p>
+
+                </div>
+
+             </section>
                     
                     
                 </div>
