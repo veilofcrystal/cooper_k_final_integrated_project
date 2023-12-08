@@ -188,44 +188,6 @@ Couples Resort Responsive Build
    height: 42;
  }
 
-
- /* Dropdown Button */
-.dropbtn {
-   background-color: #f4f4f4;
-   color: #707070;
-   width: 382px;
-   height: 42px;
-   
-   font-size: 16px;
-   text-align: left;
-   cursor: pointer;
-   border: none;
- }
- 
- /* The container <div> - needed to position the dropdown content */
- .dropdown {
-   position: relative;
-   display: inline-block;
- }
- 
- /* Dropdown Content (Hidden by Default) */
- .dropdown-content {
-   display: none;
-   position: absolute;
-   padding: 10px 10px;
-   background-color: white;
-   width: 355px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   z-index: 1;
- }
-
- /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn:focus {background-color: #fafafa;}
-
-
  
  /* 5. ---Why Choose Us--- */
  
