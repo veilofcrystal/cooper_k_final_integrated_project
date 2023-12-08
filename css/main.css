@@ -300,6 +300,8 @@ Couples Resort Responsive Build
     background-color: #f4f4f4;
     padding-top: 35px;
     padding-bottom: 30px;
+    width: 382px;
+    
  }
  
  #faq-con h2 {
@@ -346,7 +348,7 @@ Couples Resort Responsive Build
  /* 7. ---Contact--- */
  
  #contact-hero-con {
-    background: url(../images/contact-hero.jpg);
+    background: url(../images/contact-hero.jpg) no-repeat;
     height: 195px;
  }
  
