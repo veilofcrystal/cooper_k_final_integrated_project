@@ -241,6 +241,7 @@ button:first-child{
  #dining-menu {
    background-color: #f4f4f4;
    padding:0px;
+   color: #626262;
   
  }
  
@@ -252,16 +253,22 @@ button:first-child{
 
  }
 
+ a {
+   color:#626262;
+   font-family: 'Sanchez', 'Times New Roman', serif;
+   font-size: 15px;
+ }
 
 .lightbox {
    display: block;
-   width: 325px;
    height:auto;
-   background: none;
-   background-color: rgba(255, 255, 255, 0.9);
-   border-color: 5px solid black;
+   background-color: rgba(255, 255, 255, 0.3);
+   border: 3px solid grey;
    margin-right: 50px;
    z-index: 200; 
+   font-size: 15px;
+   padding: 10px;
+   width: 328px;
 }
 
 .lightbox:target {
@@ -291,11 +298,11 @@ button:first-child{
    color: #626262;
    list-style-type: none;
    background-color: #efefef;
-   border: 3px solid #707070;
+   border: 1px solid white ;
    padding: 10px;
    margin: 0px;
    text-align: left;
-  
+   
    
 }
  
