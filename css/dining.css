@@ -267,7 +267,7 @@ button:first-child{
    margin-right: 50px;
    z-index: 200; 
    font-size: 15px;
-   padding: 10px;
+   padding-left: 20px;
    width: 328px;
 }
 
@@ -275,7 +275,7 @@ button:first-child{
    display: block !important;
 }
 
-#daily-features, #starters, #entrees, #desserts, #breakfast {
+#daily-features, #starters, #entrees, #desserts, #breakfast, #lunch, #drinks {
    display: none;
 }
 
@@ -285,6 +285,7 @@ button:first-child{
    color:#707070;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    text-decoration: dashed;
+   text-align: left;
 }
 #lightbox_close:hover {
    opacity: 0.5;
