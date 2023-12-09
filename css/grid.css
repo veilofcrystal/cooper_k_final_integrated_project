@@ -17,12 +17,23 @@ body, p, h1, h2, h3, h4, h5 {
     display: grid;
     grid-template-columns: repeat(4, 73px);
     column-gap: 30px;
-    width: 412px;
+    max-width: 382px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
  }
  
+.l-b-grid-con {
+   display: grid;
+   grid-template-columns: repeat(9, 25px);
+   column-gap: 10px;
+   max-width: 382px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-left: 15px;
+}
+
+
  .col-span-1	{grid-column: span 1 / span 1;}
  .col-span-2	{grid-column: span 2 / span 2;}
  .col-span-3	{grid-column: span 3 / span 3;}
@@ -34,3 +45,8 @@ body, p, h1, h2, h3, h4, h5 {
  .col-start-2	{grid-column-start: 2;}
  .col-start-3	{grid-column-start: 3;}
  .col-start-4	{grid-column-start: 4;}
+
+
+ .col-span-5 {grid-column: span 5/ span 5;}
+
+.col-span-8 {grid-column: span 8/ span 8;}
