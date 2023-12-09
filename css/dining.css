@@ -134,6 +134,42 @@ Couples Resort Responsive Build
     background-color: rgb(196, 28, 28);
  }
  
+
+#sensitive-skin, #gluten, #vegan{
+   width: 15px;
+   height: 15px;
+   margin: 0px;
+}
+
+#email, #first-name, #last-name {
+   height: 30px;
+}
+
+#comments{
+   height: 100px;
+}
+
+
+input[type="checkbox"]:checked + span:after{
+  content: '\2729';
+  width: 2px;
+  height: 2px;
+  color: black;
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 35%;
+  padding: 0px;
+  top: 10px;
+  right: 18px;
+  font-size: 24px;
+  animation: fadeIn 0.7s;
+
+}
+
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
  #book-now-hero {
     height: 67px;
  }
@@ -163,6 +199,12 @@ Couples Resort Responsive Build
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 20px;
+ }
+
+ #opener {
+   font-size: 14px;
+   background-color: #efefef;
+   padding: 20px;
  }
  
  /* 4. ---Main Hero Image Contact--- */
@@ -199,35 +241,14 @@ button:first-child{
 }
 
 #vegans {   
-    background-color: #f4f4f4;
+    background-color: #efefef;
+    font-size: 14px;
+    padding: 20px;
+    margin: 0px;
+    float: left;
    
 }
 
- 
- /* 5. ---Why Choose Us--- */
- 
-  #why-choose-us-nav {
-    padding-top: 20px;
- }
- 
- #why-choose-us-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
- }
- #why-choose-us-nav ul li {
-    margin-bottom: 15px;
- }
- 
- #why-choose-us-nav ul li a {
-   color: inherit;
-   padding: 5px;
- }
- 
- #why-choose-us-nav ul li a.selected {
-    border-left: #9a2018 solid 5px;
-  }
- 
  
  #dining-menu-hero-con {
    background: url(../images/couple-dining.jpg) no-repeat;
@@ -239,9 +260,9 @@ button:first-child{
  }
  
  #dining-menu {
-   background-color: #f4f4f4;
    padding:0px;
    color: #626262;
+   margin: 5px;
   
  }
  
@@ -256,13 +277,13 @@ button:first-child{
  a {
    color:#626262;
    font-family: 'Sanchez', 'Times New Roman', serif;
-   font-size: 15px;
+   font-size: 14px;
  }
 
 .lightbox {
    display: block;
    height:auto;
-   background-color: rgba(255, 255, 255, 0.3);
+   background-color: #efefef;
    border: 3px solid grey;
    margin-right: 50px;
    z-index: 200; 
@@ -275,79 +296,69 @@ button:first-child{
    display: block !important;
 }
 
-#daily-features, #starters, #entrees, #desserts, #breakfast, #lunch, #drinks {
+#daily-features, #starters, #entrees, #desserts, #breakfast, #lunch, #drinks, #book-now {
    display: none;
 }
 
 #lightbox_close {
-   height: 30px;
-   width: 30px;
+   font-size: x-large;
    color:#707070;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    text-decoration: dashed;
-   text-align: left;
+   text-align: right;
+   padding: 0px;
+   margin-left: 305px;
 }
+
 #lightbox_close:hover {
    opacity: 0.5;
    color: #871C15;
 }
 
-#d-f-button, #starters-button, #entrees-button, #desserts-button, #lunch-button, #breakfast-button, #drinks-button{
-   font-size: 15;
+#d-f-button, #starters-button, #entrees-button, #desserts-button, #lunch-button, #breakfast-button, #drinks-button {
+   
    font-family: Georgia, 'Times New Roman', Times, serif;
    text-decoration: none;
    color: #626262;
    list-style-type: none;
-   background-color: #efefef;
    border: 1px solid white ;
-   padding: 10px;
-   margin: 0px;
+   padding: 12px;
+   margin: 5px;
    text-align: left;
-   
+   background-color: #efefef; 
    
 }
  
- #excellence-image {
+ #chef-image, #excellence-image{
    float: left;
-   margin-right: 20px;
-   margin-top: 30px;
+   width: 145px;
+   height: 275px;
+   margin:0px;
 }
 
- #excellence h2 {
-    font-size: 14px;
-    margin-bottom: 20px;
-    margin-top: 30px;
- }
+#excellence, #chef {
+   text-align: left;
+   width:160px;
+   margin:0px; 
+   padding: 0px;
+   font-size: 14;
  
- #excellence p {
-    font-size: 12px;
-    margin-bottom: 20px;
-    line-height: 20px;
- }
- 
- #excellence a {
-    color: #707070;
-    font-size: 12px;
- }
+}
 
- 
- 
- #policies-con {
+
+ #excellence-con {
     background: url(../images/wine_dine.jpg);
     height: 195px;
     background-repeat: no-repeat;
  }
  
- #policies-heading-box {
+ #excellence-heading-box {
     align-self: end;
  }
- 
- #policies {
-   font-size: 14px;
-   margin: 10px ;
-   
- }
 
+ #excellence-sect {
+   background-color: #efefef;
+ }
  
  
 

@@ -136,6 +136,61 @@ Couples Resort Responsive Build
  #book-now-hero {
     height: 67px;
  }
+
+ .book-now {
+   background-color: #9a2018;
+   color: #fff;
+   font-size: 16px;
+   transition: background-color 500ms linear;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-style: italic;
+   transition:all 0.3s ease;
+   cursor: pointer;
+}
+
+.book-now:hover {
+   background-color: rgb(196, 28, 28);
+}
+
+
+#sensitive-skin, #gluten, #vegan{
+  width: 15px;
+  height: 15px;
+  margin: 0px;
+}
+
+#email, #first-name, #last-name {
+  height: 30px;
+}
+
+#comments{
+  height: 100px;
+}
+
+
+input[type="checkbox"]:checked + span:after{
+ content: '\2729';
+ width: 2px;
+ height: 2px;
+ color: black;
+ background-color: yellow;
+ border: 1px solid black;
+ border-radius: 35%;
+ padding: 0px;
+ top: 10px;
+ right: 18px;
+ font-size: 24px;
+ animation: fadeIn 0.7s;
+
+}
+
+@keyframes fadeIn{
+   from{opacity: 0;}
+   to{opacity: 1;}
+}
+
  
  #hero-heading-box {
     align-self: end;
@@ -188,6 +243,69 @@ Couples Resort Responsive Build
    height: 42;
  }
 
+ 
+.dining-list {
+   text-align: left;
+   font-size: 12px;
+   padding: 10px;
+   margin-right: 50px;
+
+ }
+
+ a {
+   color:#626262;
+   font-family: 'Sanchez', 'Times New Roman', serif;
+   font-size: 14px;
+ }
+
+.lightbox {
+   display: block;
+   height:auto;
+   background-color: #efefef;
+   border: 3px solid grey;
+   margin-right: 50px;
+   z-index: 200; 
+   font-size: 15px;
+   padding-left: 20px;
+   width: 328px;
+}
+
+.lightbox:target {
+   display: block !important;
+}
+
+#rmt, #body-molding-button, #entrees, #desserts, #breakfast, #lunch, #drinks, #book-now {
+   display: none;
+}
+
+#lightbox_close {
+   font-size: x-large;
+   color:#707070;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: dashed;
+   text-align: right;
+   padding: 0px;
+   margin-left: 305px;
+}
+
+#lightbox_close:hover {
+   opacity: 0.5;
+   color: #871C15;
+}
+
+#rmt-button, #body-molding-button, #entrees-button, #desserts-button, #lunch-button, #breakfast-button, #drinks-button {
+   
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-decoration: none;
+   color: #626262;
+   list-style-type: none;
+   border: 1px solid white ;
+   padding: 12px;
+   margin: 5px;
+   text-align: left;
+   background-color: #efefef; 
+   
+}
  
  /* 5. ---Why Choose Us--- */
  

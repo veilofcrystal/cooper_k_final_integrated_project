@@ -79,9 +79,70 @@
 
             <div id="book-now-hero" class="book-now col-start-3 col-span-2">
 
-                <p>Book Now</p>
+                <a href="#book-now" id="book-now-button" class="book-now">Book Now</a>
 
             </div>
+
+            <div class="lightbox" id="book-now">
+
+                <a href="#book-now-button" id="lightbox_close">x</a>
+
+                        <h3>Book a stay with us!</h3>
+
+                            <br><br>
+                            
+                            <form class="l-b-grid-con" method="post" action="#">
+
+                                <label for="first_name" class="col-start-1 col-span-3">First Name: </label>
+                                <br>
+                                <input type="text" name="first-name" id="first-name" class="col-start-1 col-span-8">
+                                <br>
+                                <label for="last_name" class="col-start-1 col-span-3">Last Name: </label>
+                                <br>
+                                <input type="text" name="last-name" id="last-name" class="col-start-1  col-span-8">
+                            
+                                <br>
+                            
+                                <label for="email" class="col-start-1 col-span-1">Email: </label>
+                                <br>
+                                <input type="text" name="email" id="email" class="col-start-1 col-span-8">
+                            
+                                <br>
+                                <label for="comments" class="col-start-1 col-span-1">Comments: </label>
+                                <br>
+
+                                <textarea name="comments" id="comments" class="col-start-1 col-span-8">comment here</textarea>
+
+                                <br><br><br>
+                                <h4 class="col-start-1 col-span-5">Dietary restrictions:</h4>
+                                <br><br>
+
+                                 <input type="checkbox" class="col-start-1" id="gluten"><span>Gluten</span> <input type="checkbox" class="col-start-4"id="vegan"><span>Vegan</span>
+
+                                <br><br>
+
+                                <h4 class="col-start-1 col-span-8">Information for our Spa</h4>
+                                <br><br>
+
+                                <input type="checkbox" class="col-start-1 col-span-1" id="sensitive-skin"><span class="col-start-2 col-span-4">Sensitive Skin</span>    
+
+                                <br><br>
+
+                                <input type="submit" value="send" id="submit" class="col-start-1 col-span-2">
+                                
+                            </form>  
+                            <br> 
+                      <p>Couples Resort&#169;<br>
+                        1198 Osprey Rd, (End of)<br>
+                        Minden, Soyers Lake, ON,<br>
+                        K0M 2K0<br>
+                        <br>
+                        
+                        Toll Free:+1 877 201-1156<br>
+                        FAX:+1 613 638 2217<br>
+                        E-mail: info&#64;coupleresort.com</p>   
+                        <br>     
+                </div>
 
             <section id="hero-heading-box" class="col-span-full">
 
@@ -101,34 +162,43 @@
             <section id="hero-summary" class="col-span-full line-separator">
 
                 <h2 class="hidden">Dining Experience</h2>
-               
-                    <p>All room prices include daily 5-star, classic 5-course gourmet dinner in our European style dining room. 
+               <br>
+                    <p>All room prices include daily 5-star, classic 5-course gourmet dinner in our European style dining room. <br><br>
                         Or as room service brought to you, and classic style breakfast in bed</p> 
             </section>
 
         </div>
-
+        <br>
         <div class="grid-con">
 
-            <section class="col-span-full grey-text-area">
+            <section class="col-span-full grey-text-area" id="opener">
 
-                    <p>DINING ROOM OPEN - 6:00 pm to 8:00 pm (to 9:00 pm Fridays). 
-                         Reserve Table and Place Order Between 12pm - 5pm.  866-202-1179 ext 108</p>
-
-                    <p> Gastronomic 5 Course Meal:  1 amuse bouche, 2 Starters (either Appy, Soup or Salad), 
-                    1 main Entree Choice and 1 Dessert Choice.</p>
+                    <h3>Dining Room:</h3>
                     
-                    <p>Lunch Extra charge. Daily from 12:00 - 4:00 pm. 866-202-1179 ext 108</p>
-                     
-                    <p> PATIO SERVICES - LUNCH ONLY- Please wait to be seated as the tables need to be sanitized.</p>
+                    <br>
+                    
+                    <p>OPEN- 6:00pm to 8:00pm (to 9:00pm Fridays).</p>
+                    
+                    <br>Reserve Table and Place Order Between <br> 12pm - 5pm.  866-202-1179 ext 108</p>
+
+                    <br>
+                    <br>
+                    <h3> Gastronomic 5 Course Meal:</h3>
+                    <br> 
+                    <p>1 amuse bouche,
+                    <br>2 Starters (either Appy, Soup or Salad), 
+                    <br>1 main Entree Choice and 1 Dessert Choice.</p>
+                    <br><br>
+                    <h3>Lunch:</h3>
+                    <h4>(Extra charge)</h4><br>
+                    <p>Daily from 12:00 - 4:00 pm. 866-202-1179 ext 108</p>
+                     <br>
+                    <h4> PATIO SERVICES - LUNCH ONLY</h4><br>
+                        <p>- Please wait to be seated as the tables need to be sanitized.</p>
 
             </section>
-
+            <br><br>
         </div>
-            
-       
-     
-         <!-- Why Choose Us -->
       
             <section id="dining-menu-hero-con" class="grid-con">  
 
@@ -140,76 +210,6 @@
 
                 
             </section>
-  <!--         
-             <section class="grid-con">
-                    <div class="col-span-full line-separator"></div>
-
-                <div class="grid-con" id="dining-menu">
-
-                    <div class="col-span-full" id="d-f-button">
-                            <a href="#daily-features" class="col-span-full" >
-
-                                <h3>Daily Features</h3>
-
-                            </a>
-
-                        </div>
-
-                        <div class="col-span-full" id="starters-button">
-
-                            <a href="#starters" class="col-span-full"   >
-
-                                <h3>Starters</h3>
-
-                            </a>
-                        </div>
-                        
-                        <div class="col-span-full" id="entrees-button">
-                            <a href="#entrees" class="col-span-full" >
-
-                                <h3>Entress</h3>
-
-                            </a>
-                        </div>
-
-                        <div class="col-span-full" id="desserts-button">
-                            <a href="#desserts" class="col-span-full" >
-
-                                <h3>Desserts</h3>
-
-                            </a>
-
-                        </div>
-
-                        <div class="col-span-full" id="breakfast-button">
-
-                            <a href="#breakfast" class="col-span-full" >
-
-                                <h3>Breakfast - 8:00am-10:30am</h3>
-
-                            </a>
-
-                        </div>
-
-                        <div class="col-span-full" id="lunch-button">
-
-                            <a href="#lunch" class="col-span-full" >
-
-                                <h3>Lunch - 12:00pm-4:00pm</h3>
-
-                            </a>
-                        </div>
-
-                        <div class="col-span-full" id="drinks-button">
-
-                            <a href="#drinks" class="col-span-full" >
-
-                                <h3>Drinks - From 11am</h3>
-
-                            </a>
-                        </div>
-                    -->
-                       
 
 
                 <section class="grid-con">
@@ -217,10 +217,11 @@
 
                 
                   <nav class="col-span-full" >
-                    <ul class="col-span-full" id="dining-menu" >
+                    
+                    <ul class="col-span-full" id="dining-menu">
 
-                        <li class="col-span-full" id="d-f-button">
-                            <a href="#daily-features" class="col-span-full">
+                        <li id="d-f-button">
+                            <a href="#daily-features">
 
                                 <h3>Daily Features</h3>
 
@@ -228,8 +229,8 @@
 
                         </li>
 
-                        <li class="col-span-full" id="starters-button">
-                            <a href="#starters" class="col-span-full">
+                        <li id="starters-button">
+                            <a href="#starters">
 
                                 <h3>Starters</h3>
 
@@ -294,13 +295,14 @@
              
  
                <section id="menu-lightboxes" class="grid-con col-span-full">
-                            <div class="lightbox grid-start-1" id="daily-features">
+
+                            <div class="lightbox" id="daily-features">
 
                                 <a href="#d-f-button" id="lightbox_close">x</a>
 
                                     <ul class="dining-list">
 
-                                        <lable>WEDNESDAY, NOVEMBER 29TH</lable>
+                                        <label>WEDNESDAY, NOVEMBER 29TH</label>
                                         <br><br>
                                         <li>Amuse Bouche</li>
                                         <br>
@@ -325,13 +327,13 @@
                                        
                              </div>
 
-                             <div class="lightbox grid-con col-span-full" id="starters">
+                             <div class="lightbox" id="starters">
 
                                 <a href="#starters-button" id="lightbox_close">x</a>
 
                                     <ul class="dining-list">
 
-                                        <lable>STARTERS</lable>
+                                        <label>STARTERS</label>
                                         <br><br>
                                         <li>Watermelon salad<br>
                                             Fresh water melon, Baby Arugula, cucumber, Goat cheese cherry tomatoes,
@@ -352,13 +354,13 @@
                                        
                              </div>
 
-                             <div class="lightbox grid-con" id="entrees">
+                             <div class="lightbox" id="entrees">
 
                                 <a href="#entrees-button" id="lightbox_close">x</a>
 
                                     <ul class="dining-list">
 
-                                        <lable>ENTREES</lable>
+                                        <label>ENTREES</label>
                                              <br><br>
                                         <li> Petit Mignon - GF<br>
                                             4oz Filet mignon, pommery mash potato, seasonal vegetables,
@@ -414,13 +416,13 @@
                                        
                              </div>
 
-                             <div class="lightbox grid-con" id="desserts">
+                             <div class="lightbox" id="desserts">
 
                                 <a href="#desserts-button" id="lightbox_close">x</a>
 
                                     <ul class="dining-list">
 
-                                        <lable>DESSERTS</lable>
+                                        <label>DESSERTS</label>
                                         <br><br>
                                         <li> Chocolate Tower<br>
                                             Soft raspberry ganache tower
@@ -447,15 +449,15 @@
                                        
                              </div>
 
-                             <div class="lightbox grid-con" id="breakfast">
+                             <div class="lightbox" id="breakfast">
 
                                 <a href="#breakfast-button" id="lightbox_close">x</a>
 
                                     <ul class="dining-list">
 
-                                        <lable> BREAKFAST (ROOM-SERVICE) <br>HOURS: 8:30 am to 10:30 am. 
+                                        <label> BREAKFAST (ROOM-SERVICE) <br>HOURS: 8:30 am to 10:30 am. 
                                             <br>Best to place with your dinner order. 866-202-1179 ext 102
-                                        </lable>
+                                        </label>
                                             <br><br>
                                         <li>Beverages<br>
                                             Tea, Coffee, Hot Chocolate or Milk</li>
@@ -494,13 +496,13 @@
                                        
                              </div>
 
-                                <div class="lightbox grid-con" id="lunch">
+                                <div class="lightbox" id="lunch">
 
                                 <a href="#lunch-button" id="lightbox_close">x</a>
 
                                     <ul class="dining-list">
 
-                                        <lable>Lunch <br><br>Extra charge. Daily from 12:00 - 4:00 pm. 866-202-1179 ext 108</lable>
+                                        <label>Lunch <br><br>Extra charge. Daily from 12:00 - 4:00 pm. 866-202-1179 ext 108</label>
                                             <br><br>
                                         <li>Chicken club wrap…$19<br>
                                             Grilled chicken breast, Maple pepper Bacon, Romaine leaf, tomatoes, light Mayo wrapped in flour tortilla and pressed
@@ -532,14 +534,15 @@
                                         </ul>                     
                                 </div>
                              
-                                <div class="lightbox grid-con" id="drinks">
+                                <div class="lightbox" id="drinks">
 
                                     <a href="#drinks-button" id="lightbox_close">x</a>
     
                                         <ul class="dining-list">
     
-                                            <lable> Drinks</lable>
-                                                <br><br>
+                                            <label> Drinks</label>
+                                                
+                                            <br><br>
                                             <li>SEASONAL DRINK FEATURE (8OZ) $15</li>
                                                 <br>
                                             <li>PITCHER (32OZ) $45</li>
@@ -595,65 +598,82 @@
                                 
                              
                             </section>
-
+                    <br>
                       
-                <div id="vegans" class="col-span-full grid-con=">
+                
 
-                    <p>Vegan and Vegetarian dishes are available, we offer a large array of choices from Heart Smart, 
-                    Gluten Free at your request. Vegans & Vegetarians ask to talk to the Chef,
-                     when you Check into the Resort, for Delicious Options</p>
+                    <h3 id="vegans"  class=" col-start-1 col-span-full">Vegan and Vegetarian dishes are available, we offer a large array of choices from Heart Smart, 
+                    Gluten Free at your request.<br> Vegans & Vegetarians ask to talk to the Chef,
+                     when you Check into the Resort, for Delicious Options</h3>
 
-                </div>
+                
 
              </section>
-                    
+                    <br><br>
                     
                 </div>
              </section>   
         
-        <section id="policies-con" class="grid-con">
-            <div id="policies-heading-box" class="col-span-full">
-                <h2 class="hero-img-h2"><span>Couples Resort</span><br> Spa Policies and Imortant Info</h2>
+        <section id="excellence-con" class="grid-con">
+            <div id="excellence-heading-box" class="col-span-full">
+                <h2 class="hero-img-h2"><span>Couples Resort</span><br> Dine in excellence</h2>
             </div>
         </section>
 
             
-        <section class="grid-con">
+        <section >
             
             
-            <div class="line-separator col-span-full"></div>
+            <div class="grid-con line-separator col-span-full">
 
-                
+           <article id="excellence-sect">  
 
-                <div  class="col-span-full excellence">
+            </div>
+
+                <br>
+
+                <div  class="grid-con col-span-full" id="wrap2">
 
 
-                    <div class="excellence-image"> <img src="images/wine-excellence-award.jpg" alt="wine excellence award of 2021" ></div>
+                        <div id="excellence-image" class="col-start-1 col-span-1"> <img src="images/wine-excellence-award.jpg" alt="wine excellence award of 2021" ></div>
 
-                    <p>WINE SPECTATOR’S AWARD OF EXCELLENCE.</p>
-                
+                       <article class="col-start-3 col-span-2" id="excellence">
+
+                        <h3>WINE SPECTATOR’S AWARD OF EXCELLENCE.</h3>
+
+                        <br>
+
                         <p>If you like, Sommeliers will help you choose a new refreshing beverage or help you in pairing a wine with your food.
-                         Recognized for 8 years in a row with the prestigious Wine Spectator’s Award of Excellence,Couples Resort offers acomprehensive 
-                        collection of superb regional and world wines to compliment your experience at Couples Resort. Our wine selections are continuously
+                            <br><br>
+                         Recognized for 8 years in a row with the prestigious Wine Spectator’s Award of Excellence,
+                         <br>Couples Resort offers a comprehensive 
+                        collection of superb regional and world wines to compliment your experience at Couples Resort.<br> <br>
+                        Our wine selections are continuously
                          changing with new vintages being added generally every 2 weeks.</p>
+                        </article>
+                </div>
 
+            <br><div class="grid-con line-separator col-span-full"> <br>
+
+                <div class="grid-con col-span-full" id="wrap2">
+
+                        <div id="chef-image" class="col-start-1 col-span-1"><img src="images/chef-edit.jpg" alt="Chef Ronnie Holding wine infront of dinner table with gourmet dishes"></div>
+
+                    <article class="col-start-3 col-span-2" id="chef">
+                        <h3>GOURMET MEALS & WINE <br> CHEF RONNIE; TRANSLATION = GOURMET!</h3><br>
+                         <p> Executive Chef, Ronnie Coppens with Chef, Evan tantalize with their Brigade of 7 Chef d’Parties. <br><br>
+                        Menus are focused on freshness, seasonal availability and Ontario produced foods. <br><br>
+                        Only the highest quality products enter the kitchen where the team then produces meals;<br>
+                        (Fresh Fish offered Daily as one of the Chef’s Daily features),<br> from their expansive experience, that will tantalize your taste buds!</p>
+                    </article>
                 </div>
                 
-                <div class="col-span-full excellence">
-
-                <div class="excellence-image"><img src="images/chef-edit.jpg" alt="Chef Ronnie Holding wine infront of dinner table with gourmet dishes"></div>
-
-                       <h3>GOURMET MEALS & WINE <br> CHEF RONNIE; TRANSLATION = GOURMET!</h3>
-                    <p> Executive Chef, Ronnie Coppens with Chef, Evan tantalize with their Brigade of 7 Chef d’Parties. 
-                        Menus are focused on freshness, seasonal availability and Ontario produced foods. 
-                        Only the highest quality products enter the kitchen where the team then produces meals; 
-                        ( Fresh Fish offered Daily as one of the Chef’s Daily features), from their expansive experience, that will tantalize your taste buds!</p>
-            </div>
-     
+            </article>   
            
         </section>
             
         <footer id="footer-hero" class="grid-con">        
+            
                 <section id="footer-contact-info" class="col-span-full">
                     <h3>Couples Resort</h3>
                     <p>1198 Osprey Rd, (End of)<br>
