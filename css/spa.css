@@ -1,23 +1,4 @@
-/*
-Couples Resort Responsive Build
-4 column grid as per XD file
- */
 
-/* 
-    CSS Guide 
-
-    1.  General Styles
-    2.  Main Nav
-    3.  Main Hero Image
-    4.  Main Hero Image Contact
-    5.  Why Couples Resort
-    6.  About & FAQ
-    7.  Contact Form
-    8.  Footer 
- */
-
-
- /* 1. ---General Styles--- */
 
  #mobile-outline {
     outline: 20px solid #333;
@@ -47,8 +28,6 @@ Couples Resort Responsive Build
  }
  
  
- /* 2. ---Main Nav--- */
- 
   #main-nav label img {
     width: 20px;
     height: 20px;
@@ -61,9 +40,6 @@ Couples Resort Responsive Build
  #main-nav input, #burger-con {
     display: none;
  }
- 
- 
- /*   ~ sibling selector   */
  
  
  #main-nav input:checked ~ #burger-con {
@@ -108,8 +84,6 @@ Couples Resort Responsive Build
     max-width: 382px;
  }
  
- 
- /* 3. ---Main Hero Image--- */
  
  #hero {
     background: url(../images/spa-hero.jpg) no-repeat;
@@ -219,8 +193,6 @@ input[type="checkbox"]:checked + span:after{
     margin-bottom: 20px;
  }
  
- /* 4. ---Main Hero Image Contact--- */
- 
  .fas {
     font-size: 42px;
     color: #9a2018;
@@ -238,13 +210,15 @@ input[type="checkbox"]:checked + span:after{
     margin-right: 10px;
  }
  
- #spa-menu{
-   width: 382;
-   height: 42;
+ #spa-menu {
+   padding:0px;
+   color: #626262;
+   margin: 5px;
+   font-size: 12px;
+  
  }
-
  
-.dining-list {
+.spa-lightbox {
    text-align: left;
    font-size: 12px;
    padding: 10px;
@@ -274,8 +248,10 @@ input[type="checkbox"]:checked + span:after{
    display: block !important;
 }
 
-#rmt, #body-molding-button, #entrees, #desserts, #breakfast, #lunch, #drinks, #book-now {
+#rmt, #body-molding, #head-massage, #hot-stone, #book-now{
    display: none;
+   padding: 0px 10px 25px 25px;
+   font-size: 12px;
 }
 
 #lightbox_close {
@@ -293,7 +269,7 @@ input[type="checkbox"]:checked + span:after{
    color: #871C15;
 }
 
-#rmt-button, #body-molding-button, #entrees-button, #desserts-button, #lunch-button, #breakfast-button, #drinks-button {
+#rmt-button, #body-molding-button, #head-massage-button, #hot-stone-button{
    
    font-family: Georgia, 'Times New Roman', Times, serif;
    text-decoration: none;
@@ -304,33 +280,9 @@ input[type="checkbox"]:checked + span:after{
    margin: 5px;
    text-align: left;
    background-color: #efefef; 
+   font-size: 14px;
    
 }
- 
- /* 5. ---Why Choose Us--- */
- 
-  #why-choose-us-nav {
-    padding-top: 20px;
- }
- 
- #why-choose-us-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
- }
- #why-choose-us-nav ul li {
-    margin-bottom: 15px;
- }
- 
- #why-choose-us-nav ul li a {
-   color: inherit;
-   padding: 5px;
- }
- 
- #why-choose-us-nav ul li a.selected {
-    border-left: #9a2018 solid 5px;
-  }
- 
  
  #spa-treatments-hero-con {
    background: url(../images/facial-mobile.jpg) no-repeat;
@@ -348,121 +300,58 @@ input[type="checkbox"]:checked + span:after{
 
  }
  
- .why-choose-us-image-con h2 {
-    font-size: 14px;
-    margin-bottom: 20px;
-    margin-top: 30px;
- }
+.image-con {
+   width: 118px;
+}
  
- .why-choose-us-image-con p {
+ .treatments-con p {
     font-size: 12px;
     margin-bottom: 20px;
     line-height: 20px;
  }
  
- .why-choose-us-image-con a {
-    color: #707070;
-    font-size: 12px;
+ h6 {
+   text-align: center;
  }
+
  
-  #why-choose-us-bottom-nav {
-    background-color: #CF6666;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
- }
- 
- #why-choose-us-bottom-nav ol {
-    list-style-type: none;
-    margin: 0 0 0 20px;
-    padding: 0;
- }
- 
- #why-choose-us-bottom-nav ol li {
-    display: inline;
- }
- 
- #why-choose-us-bottom-nav ol li a {
-    padding: 5px;
-    color: #fff;
- }
- 
- 
- 
- /* 6. ---About & FAQ--- */
- 
- #about-hero-con {
+ #eminence-hero-con {
     background: url(../images/eminecense-mobile.jpg) no-repeat;
     height: 195px;
  }
  
- #about-hero-heading-box {
+ #eminence-heading-box {
     align-self: end;
  }
  
- #about-us-text {
+ #eminence-text {
     padding-bottom: 60px;
  }
  
- #about-us-text p {
+ #eminence-text p {
     font-size: 14px;
     margin-bottom: 20px;
     line-height: 22px;
  }
  
- #about-us-text-column2 {
-    font-style: italic;
+ #eminence, #award-text {
+   text-align: left;
+   width:160px;
+   margin:0px; 
+   padding: 0px;
+   font-size: 14;
  }
+
  
- #menu {
-    background-color: #f4f4f4;
-    padding-top: 35px;
-    padding-bottom: 30px;
- }
  
- #menu h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
- }
- 
- #menu h2 span {
-    color: #9a2018;
-    font-size: 16px;
- }
- 
- .menu-items {
-    margin-bottom: 16px;
- }
- 
- .menu-items h3 {
-    background: #e8e7e7;
-    padding: 16px;
-    font-size: 16px;
- }
- 
- .menu-items ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
- }
- 
- .menu-items li {
-    padding: 8px 0;
-    border-bottom: 1px solid #9a2018;
- }   
- 
- .menu-items a {
-    color: inherit;
-    font-size: 13px;
- }
- 
- #menu-text-con {
-    margin-top: 20px;
-    margin-bottom: 20px;
- }
- 
- /* 7. ---Contact--- */
- 
+#package-deals {
+   background-color: #efefef;
+   text-align: center;
+   font-size: 14px;
+   padding: 20px;
+}
+
+
  #policies-con {
     background: url(../images/couples-massage-mobile.jpg);
     height: 195px;
@@ -487,10 +376,6 @@ input[type="checkbox"]:checked + span:after{
  }
 
  
- 
-
- 
- /* 8. ---Footer--- */
  
  #footer-hero {
     background-image: url(../images/footer.jpg);
