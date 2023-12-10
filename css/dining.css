@@ -1,23 +1,4 @@
-/*
-Couples Resort Responsive Build
-4 column grid as per XD file
- */
 
-/* 
-    CSS Guide 
-
-    1.  General Styles
-    2.  Main Nav
-    3.  Main Hero Image
-    4.  Main Hero Image Contact
-    5.  Why Couples Resort
-    6.  About & FAQ
-    7.  Contact Form
-    8.  Footer 
- */
-
-
- /* 1. ---General Styles--- */
 
  #mobile-outline {
     outline: 20px solid #333;
@@ -47,7 +28,7 @@ Couples Resort Responsive Build
  }
  
  
- /* 2. ---Main Nav--- */
+
  
   #main-nav label img {
     width: 20px;
@@ -61,9 +42,7 @@ Couples Resort Responsive Build
  #main-nav input, #burger-con {
     display: none;
  }
- 
- 
- /*   ~ sibling selector   */
+
  
  
  #main-nav input:checked ~ #burger-con{
@@ -110,7 +89,7 @@ Couples Resort Responsive Build
  }
  
  
- /* 3. ---Main Hero Image--- */
+
  
  #hero {
     background: url(../images/dining.jpg) no-repeat;
@@ -207,7 +186,7 @@ input[type="checkbox"]:checked + span:after{
    padding: 20px;
  }
  
- /* 4. ---Main Hero Image Contact--- */
+
  
  .fas {
     font-size: 42px;
@@ -226,10 +205,6 @@ input[type="checkbox"]:checked + span:after{
     margin-right: 10px;
  }
  
- #spa-menu{
-   width: 382;
-   height: 42;
- }
 
 button {
     margin-bottom: 13.4px;
@@ -363,7 +338,7 @@ button:first-child{
  
 
  
- /* 8. ---Footer--- */
+
  
  #footer-hero {
     background-image: url(../images/footer.jpg);
