@@ -50,7 +50,7 @@
 
             <div class="lightbox" id="book-now">
 
-                <a href="#book-now-button" id="lightbox_close">x</a>
+                <a href="#book-now-button" class="lightbox_close">x</a>
 
                         <h3>Book a stay with us!</h3>
 
@@ -58,11 +58,11 @@
                             
                             <form class="l-b-grid-con" method="post" action="#">
 
-                                <label for="first_name" class="col-start-1 col-span-3">First Name: </label>
+                                <label for="first-name" class="col-start-1 col-span-3">First Name: </label>
                                 <br>
                                 <input type="text" name="first-name" id="first-name" class="col-start-1 col-span-8">
                                 <br>
-                                <label for="last_name" class="col-start-1 col-span-3">Last Name: </label>
+                                <label for="last-name" class="col-start-1 col-span-3">Last Name: </label>
                                 <br>
                                 <input type="text" name="last-name" id="last-name" class="col-start-1  col-span-8">
                             
@@ -82,7 +82,7 @@
                                 <h4 class="col-start-1 col-span-5">Dietary restrictions:</h4>
                                 <br><br>
 
-                                 <input type="checkbox" class="col-start-1" id="gluten"><span>Gluten</span> <input type="checkbox" class="col-start-4"id="vegan"><span>Vegan</span>
+                                 <input type="checkbox" class="col-start-1" id="gluten"><span>Gluten</span> <input type="checkbox" class="col-start-4" id="vegan"><span>Vegan</span>
 
                                 <br><br>
 
@@ -178,8 +178,8 @@
                         </li>
 
 
-                        <li id="head-massage-button">
-                            
+                        <li id="hot-stone-button">
+
                             <a href="#hot-stone">
 
                                 <h3>Hot Stones</h3>
@@ -199,7 +199,7 @@
 
         <div class="lightbox" id="rmt">
 
-            <a href="#rmt-button" id="lightbox_close">x</a>
+            <a href="#rmt-button" class="lightbox_close">x</a>
 
             <h3>Registered Massage Therapy</h3>
                 <ul class="spa-lightbox">
@@ -229,7 +229,7 @@
 
          <div class="lightbox" id="body-molding">
 
-            <a href="#body-molding-button" id="lightbox_close">x</a>
+            <a href="#body-molding-button" class="lightbox_close">x</a>
 
             <h3>Body Molding</h3>
             <br>
@@ -258,7 +258,7 @@
 
         <div class="lightbox" id="head-massage">
 
-            <a href="#head-massage-button" id="lightbox_close">x</a>
+            <a href="#head-massage-button" class="lightbox_close">x</a>
 
             <h3> Indian Head Massage</h3>
                 <br>
@@ -270,6 +270,7 @@
                     <li>Available Spa: 60 min $118*.</li>
 
                 </ul> 
+                <br>
                         <p>Ayurveda Indian Head Massage is a relaxing massage that stimulates
                          the acupressure points on the head,
                          upper back, shoulders, neck and face.
@@ -281,14 +282,15 @@
             
             <div class="lightbox" id="hot-stone">
 
-                <a href="#hot-stone-button" id="lightbox_close">x</a>
+                <a href="#hot-stone-button" class="lightbox_close">x</a>
     
                 <h3> Hot Stone Therapy</h3>
 
                     <ul class="spa-lightbox">
                         
                         <li>Available Spa: 60 min $166.*</li>
-                            <br><br>
+                    </ul>
+                    <br>  
                             <p>
                                 Experience the ultimate in relaxation.
                                  Stone massage involves the application of heated stones to key points on the body, 
@@ -297,7 +299,7 @@
                                  by expanding the blood vessels and relaxing the nervous system, alleviating symptoms of 
                                 insomnia and arthritic conditions while melting away the tension and stresses of daily life.
                                  This unique indulgence is not to be missed! </p>
-                    </ul> 
+                    
                 </div>
                 <br>
         </section>
@@ -457,11 +459,13 @@
             
             <section>
 
+                <h2 class="hidden">More about our Spa</h2>
+
                 <div  class=" grid-con col-span-full line-separator"></div>
 
-                <article id="excellence-sect">  
-
-                </div>
+                <article>  
+                    <h2 class="hidden">More about our Spa</h2>
+               
     
                     <br>
     
@@ -482,7 +486,7 @@
                             </article>
                     </div>
     
-                <br><div class="grid-con line-separator col-span-full"> <br>
+                    <br><div class="grid-con line-separator col-span-full"></div> <br>
     
                     <div class="grid-con col-span-full">
     

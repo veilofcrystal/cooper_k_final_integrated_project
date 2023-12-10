@@ -275,7 +275,7 @@ button:first-child{
    display: none;
 }
 
-#lightbox_close {
+.lightbox_close {
    font-size: x-large;
    color:#707070;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -285,7 +285,7 @@ button:first-child{
    margin-left: 305px;
 }
 
-#lightbox_close:hover {
+.lightbox_close:hover {
    opacity: 0.5;
    color: #871C15;
 }
@@ -316,7 +316,7 @@ button:first-child{
    width:160px;
    margin:0px; 
    padding: 0px;
-   font-size: 14;
+   font-size: 14px;
  
 }
 
@@ -331,10 +331,7 @@ button:first-child{
     align-self: end;
  }
 
- #excellence-sect {
-   background-color: #efefef;
- }
- 
+
  
 
  
